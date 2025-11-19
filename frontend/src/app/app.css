@@ -1,0 +1,39 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5; /* Light grey background */
+  height: 100vh;
+}
+
+.search-card {
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.results-area {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
